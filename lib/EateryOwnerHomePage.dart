@@ -33,8 +33,7 @@ class _EateryOwnerHomePageState extends State<EateryOwnerHomePage> {
   final TextEditingController foodNameController = TextEditingController();
   final TextEditingController categoryController = TextEditingController();
   final TextEditingController typeController = TextEditingController();
-  final places =
-      GoogleMapsPlaces(apiKey: 'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8');
+  final places = GoogleMapsPlaces(apiKey: '');
   final dialogKey = GlobalKey<State>();
 
   String? selectedCategory;

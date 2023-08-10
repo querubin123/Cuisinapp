@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
   final Set<Marker> _markers = {};
 
   final places = GoogleMapsPlaces(
-    apiKey: 'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8',
+    apiKey: '',
   );
 
   // Other members and methods
@@ -747,8 +747,7 @@ class _HomePageState extends State<HomePage> {
     double eateryLongitude = locations.first.longitude;
 
     // Prepare the request URL for the Directions API
-    String apiKey =
-        'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8'; // Replace with your Google Maps API key
+    String apiKey = ''; // Replace with your Google Maps API key
     String baseUrl = 'https://maps.googleapis.com/maps/api/directions/json?';
     String origin = '$currentLatitude,$currentLongitude';
     String destination = '$eateryLatitude,$eateryLongitude';
@@ -1366,7 +1365,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  static const apiKey = 'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8';
+  static const apiKey = '';
 
   Future<double?> getLatitudeForCity(String city) async {
     final encodedCity = Uri.encodeQueryComponent(city);

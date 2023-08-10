@@ -74,7 +74,7 @@ class _EateryOwnerMapPageState extends State<EateryOwnerMapPage> {
   late GoogleMapController _controller;
 
   final places = GoogleMapsPlaces(
-    apiKey: 'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8',
+    apiKey: '',
   );
 
   List<Prediction> _suggestions = [];
@@ -1006,7 +1006,7 @@ class _EateryOwnerMapPageState extends State<EateryOwnerMapPage> {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
                           child: Image.network(
-                            'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${result.photos[index].photoReference}&key=AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8',
+                            'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${result.photos[index].photoReference}&key=',
                             width: 400,
                             height: 200,
                             fit: BoxFit.cover,
@@ -1368,7 +1368,7 @@ class _EateryOwnerMapPageState extends State<EateryOwnerMapPage> {
   Future<Uint8List?> getPlacePhoto(String? photoReference) async {
     if (photoReference == null) return null;
 
-    String apiKey = 'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8';
+    String apiKey = '';
     String url =
         'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=$photoReference&key=$apiKey';
 
@@ -1420,7 +1420,7 @@ class _EateryOwnerMapPageState extends State<EateryOwnerMapPage> {
                         image: photoReference.isNotEmpty
                             ? DecorationImage(
                                 image: NetworkImage(
-                                  'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=$photoReference&key=AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8',
+                                  'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=$photoReference&key=',
                                 ),
                                 fit: BoxFit.cover,
                               )
@@ -1502,7 +1502,7 @@ class _EateryOwnerMapPageState extends State<EateryOwnerMapPage> {
     );
     _updateCurrentLocation(currentPosition); // Update current location
     String apiUrl =
-        'https://maps.googleapis.com/maps/api/directions/json?origin=${sourceLatLng.latitude},${sourceLatLng.longitude}&destination=${destinationLatLng.latitude},${destinationLatLng.longitude}&key=AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8';
+        'https://maps.googleapis.com/maps/api/directions/json?origin=${sourceLatLng.latitude},${sourceLatLng.longitude}&destination=${destinationLatLng.latitude},${destinationLatLng.longitude}&key=';
 
     var response = await http.get(Uri.parse(apiUrl));
 
@@ -1890,8 +1890,7 @@ class _EateryOwnerMapPageState extends State<EateryOwnerMapPage> {
   Future<String?> _getPlaceDetails(String? placeId) async {
     if (placeId == null) return null;
 
-    const apiKey =
-        'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8'; // Replace with your actual API key
+    const apiKey = ''; // Replace with your actual API key
     final url = Uri.parse(
       'https://maps.googleapis.com/maps/api/place/details/json?place_id=$placeId&key=$apiKey',
     );
@@ -1957,8 +1956,7 @@ Comment: $comment
   }
 
   String _buildPhotoUrl(String photoReference) {
-    const apiKey =
-        'AIzaSyCy_6nXlu1udc4QyLb0fp4aWkr9reo6Nr8'; // Replace with your actual API key
+    const apiKey = ''; // Replace with your actual API key
     const maxWidth = 400;
     final url = Uri.parse(
       'https://maps.googleapis.com/maps/api/place/photo?maxwidth=$maxWidth&photoreference=$photoReference&key=$apiKey',
