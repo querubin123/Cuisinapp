@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cuisinap",
+  "private_key_id": "f140a379e57f1defaae96213bad90f5c39e3b35c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzvYp65Jc99TSp\nSZUOEcFLHIVWHrsHcDHtMkbUD52sp2qkhg3uqP4CLvxxYZUmBLHvllOV7KsMiHNJ\nwb88Sm0p98f13HYMMQIo39X9b6RbdagPkdhCiRgPgzt1+NzhB3S58V/IWX2pNlP9\n08KvJDW1Yo2jHPTJo3MC67s8F/L6bBssxLgDx5uAPhBdtcrlQC2kbzjxTTAj8Dvp\ngskaKN1lji6Ycykw5kzxOVcy18cZgnIs6KrBNHbt4N3zxh4jmmgwB8LjY1RxAk47\n31TlgsqG2HE/bEV6dkVKgSfsROt/LZpplW9mhnYR0k60xXjxKpbSbiD0KN5SHnGI\n7C7y3nRPAgMBAAECggEADsxMdMER4UxT2/Aum8GYdr+lYVQXCo4RKOSFHPvK0SaD\ndYItRCNDrm2sjlp+C2rtig/dV9rsBj8hsXEzIRqbkY37N4xsElA39kzfcwXYXp35\niovzux6gYtPndwIDOr+rZjevhBuMvfwMFDogAt1p/UIHmTtOvV8onpVGjV8HZoM7\n3l+E6a3ksYOoBmqSnxBVyrwqYWitbQiJpbWm+CDZDgP7/n1DLLmiQNFvOMmfKh2N\n0gnY8liju1VLa11NTGppUNnFqBvOCDchuJe1Rsux60voyoullS6FKES5+u0hjp6v\n+YNIb+oRl77YKpe4kEXT2sAavKPtY07xWWwtY9uqYQKBgQDsQjXFH11ef7BoOI07\n9AKix+Vxiv61GOPKACK/VGCj6e35ZCHLmY97e06GVIde/+ua1c+QyZFA0S07WvSs\nd/Kj/pzx+TfFyuW8/U8Ms18skHpKFUe0KqF8VpHGGxqVdf4EbzMr179SIfKXqRkQ\nKYs5lqGYPj3MzjPnsDVnavJrUQKBgQDCwlqKI5cGY44zWMQ9s4geJQ1/dfoFC02q\ngJnv2JxgUMvnl7xOzflJ0v0Mgz3z3vnMt0kqFvCHKoXcq6rOyaujVR+rhH0Hvp4I\nhQP974LelWGs9II4CxwEJKrHqtcHz2K8Sefzqn5h5NBtCqKQmkcX/8Aw3phObJK3\noUHBkSO9nwKBgQC2pjE/phHe/sR4rk+x6+Ely3h8oUJs60MfZZ93X1ofHrjVty3R\nY3RjuF5qx2qobR3OZEHF468h9xUK8DR8KXcyhaL8BvmxNj0KMKMuZHXN1BxWrcDz\nbonNwHeOOmIA7mllMDrVSEQm0QvlZ9tyfUufR+7B7kyEy12hXr7KpwmnIQKBgFsO\npWgqpaS+DTEiknXKp5x4dGwgi6mqFEDgaZiC7PH3NK5t+gPaN3B1rgwYnHGV0bMO\nCq4cFY8MqZN3y59tGMt/tBPsGMzzKU4QasJiJgzNSOKlWvC6+PlS72n1DR5Arwgb\ngdAh6X75jR0+OK1lBFJLJ99xY0JfbuVeBrFqm4w/AoGASEdmaoBsx/QX9SyynmO4\nM29ftqOWzqeQCrMlpo6ppLWq1X71INyFU+044DJzDIDLltTSIZQ9yaRU0zRjlD8w\n0UVyACadvcwnEh+WrZ74Q41DyrKjAbdEPh76HFz9ArxCAnzF2BQf9lIsO4hzQIEh\nvp1WaPOWUw0/eGiJgRS25uM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reviews@cuisinap.iam.gserviceaccount.com",
+  "client_id": "107832926258995492378",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reviews%40cuisinap.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
