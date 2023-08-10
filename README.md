@@ -1,4 +1,4 @@
-# cuisinap
+# Cuisinapp
 
 A new Flutter project.
 
