@@ -1,12 +1,16 @@
-import 'package:cuisinapp/signup_options_page.dart';
-import 'package:cuisinapp/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'EateryOwnerSettingsPage.dart';
 import 'EaterySignInPage.dart';
+import 'splash_page.dart'; // Make sure to import your splash_page.dart
+import 'signup_options_page.dart'; // Make sure to import your signup_options_page.dart
 
-void main() async {
+Future<void> main() async {
+  // Load .env file
+  await dotenv.load(fileName: ".env");
+
   // Initialize Firebase
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
